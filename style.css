@@ -1,0 +1,10 @@
+main{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.box{
+    display: grid;
+    border: 1px solid red;
+    background-color: green;
+}
