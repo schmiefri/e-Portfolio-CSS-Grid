@@ -1,4 +1,9 @@
+header{
+  margin-left: 200px;
+}
+
 main{
+  margin-left: 150px;
   display: grid;
   grid-template-rows: 150px 150px 150px;
   grid-template-columns: repeat(3, 150px);
