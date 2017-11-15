@@ -1,0 +1,47 @@
+header{
+  padding-left: 150px;
+}
+main>div{
+  border: red 1px solid;
+
+}
+main{
+  margin-left: 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-auto-rows: 150px;
+  grid-template-areas:  "Box1 Box1 Box2"
+                        "Box3 Box4 Box4"
+                        "Box3 Mike Box6"
+                        "Box7 Box7 Box8"
+                        "Box9 Box9 Box8";
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+.box1{
+  grid-area: Box1;
+}
+.box2{
+  grid-area: Box2;
+}
+.box3{
+  grid-area: Box3;
+}
+.box4{
+  grid-area: Box4;
+}
+.box5{
+  grid-area: Mike;
+}
+.box6{
+  grid-area: Box6;
+}
+.box7{
+  grid-area: Box7;
+}
+.box8{
+  grid-area: Box8;
+}
+.box9{
+  grid-area: Box9;
+}
