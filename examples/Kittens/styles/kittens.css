@@ -1,0 +1,18 @@
+
+body{
+  background-color: #EEEEEE;
+}
+main{
+  display: grid;
+  grid-template-columns: 300px 500px;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  justify-content: center;
+}
+.text{
+  padding-left: 1em;
+  align-items: start;
+}
+header{
+  padding-left: 30%;
+}
