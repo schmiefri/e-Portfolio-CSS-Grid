@@ -71,3 +71,6 @@ If you want to add spacing to your grid, you can add the following code to the p
 }
 /* You can use any unit valid for grid definitions here */
 ```
+
+This should be enough to get you started and enable you to build grid layouts for most use cases. If you prefer a video explanaition, I found [this video](https://www.youtube.com/watch?v=jV8B24rSN5o) very helpful.
+For further, in-depth documentation, please refer to [MDN](https://developer.mozilla.org/de/docs/Web/CSS/CSS_Grid_Layout)
