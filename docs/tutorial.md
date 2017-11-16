@@ -18,15 +18,9 @@ You can then asign children to start- and end-points. If you do not do this, the
 ```CSS
 /* A simple grid*/
 .parent{
-<<<<<<< HEAD
   display: grid;
   grid-template-columns: 40% 30% 30%;
   grid-auto-rows: 1fr 2fr;
-=======
-    display: grid;
-    grid-template-columns: 40% 30% 30%;
-    grid-auto-rows: 1fr 2fr;
->>>>>>> 5cc982ee566d39ef57844a7d63f50ae529ebd845
 }
 .child1{
   grid-column: 1/2;
