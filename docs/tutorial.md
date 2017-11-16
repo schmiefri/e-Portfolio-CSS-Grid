@@ -36,7 +36,7 @@ You can then asign children to start- and end-points. If you do not do this, the
 }
 ```
 
-If you know the content of your page, there is a more visual way to define your layout, `grid-area`. Here you define areas with string literals and then asign children to those.
+If you know the content of your page, there is a more visual way to define your layout, `grid-area`. Here you define areas with string literals and then asign children to those. To make items span over multiple columns or rows, you can use your identifier multiple times.
 
 ```CSS
 .parent{
